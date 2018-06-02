@@ -1,4 +1,4 @@
-Name of QuantLet: MarkovSwitchingAR
+Name of QuantLet: MarkovSwitchingGARCH11
 
 Published in: 'Volatility Modelling of CO2 Emission Allowance Spot Prices with Regime-Switching GARCH Models'
 

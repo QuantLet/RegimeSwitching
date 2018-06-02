@@ -1,5 +1,4 @@
-Name of QuantLet: MarkovSwitchingAR
-
+Name of QuantLet: MarkovSwitchingAR4
 Published in: 'Volatility Modelling of CO2 Emission Allowance Spot Prices with Regime-Switching GARCH Models'
 
 Description: 'Estimates a Markov switching autoregressive model and plots the estimated states for CO2 spot price data from 2008 to 2011'
@@ -8,7 +7,9 @@ Keywords: autoregressive, Markov, volatility, estimation
 
 See also: MarkovSwitchingARGARCH, MarkovSwitchingGARCH, MarkovSwitchingNormal
 
+
 Author: Thijs Benschop
+
 
 Submitted: Thijs Benschop
 
