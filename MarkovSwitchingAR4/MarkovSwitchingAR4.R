@@ -207,9 +207,6 @@ for (i in 726:1183){
 	cat("iteration: ", i, "/n")
 	}
 
-# load recursivePar
-recursivePar = as.matrix(read.table("reestRecurMSAR4.txt", header=TRUE))
-
 # calculate point and density estimates, confidence intervals
 pointForecastRec = rep(0, 458)
 sigma2Forecast   = rep(0, 458)
@@ -313,7 +310,7 @@ dzeta2 = dzeta[[1]][,2]
 par(mfrow = c(2,1))
 jan08 = as.Date("01/01/08", "%d/%m/%y")
 dec10 = as.Date("01/01/11", "%d/%m/%y")
-DatePlot = as.Date(data$Date[6:725], , "%d/%m/%y")
+DatePlot = as.Date(data$Date[6:725],"%d/%m/%y")
 
 par(mar = c(4,4,2,2))
 plot(dzeta1[5:724]~DatePlot,
