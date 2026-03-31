@@ -159,7 +159,7 @@ dzeta2 		= dzeta[[1]][,2]
 par(mfrow = c(2,1))
 jan08 		= as.Date("01/01/08", "%d/%m/%y")
 dec10 		= as.Date("01/01/11", "%d/%m/%y")
-DatePlot 	= as.Date(data$Date[6:725], ,"%d/%m/%y")
+DatePlot 	= as.Date(data$Date[6:725],"%d/%m/%y")
 
 plot(dzeta1[5:724]~DatePlot,
 	 type 	= "l",
@@ -225,7 +225,7 @@ for (i in 0:10){
 		}
 	}
 
-AIC = 2*(test2$minimum) + 2*6
+AIC = 2*(testnlm$minimum) + 2*6
 
 #########################################################
 ############## Forecasting ##############################
@@ -305,7 +305,7 @@ plot(c1Forecast,
 par(new=TRUE)
 plot(data$logRet[726:1183],
 	type = "l",
-	ylim = c(-0.1, 0.2,),
+	ylim = c(-0.1, 0.2),
 	xaxt = "n",
 	yaxt = "n",
 	ann  = FALSE)
