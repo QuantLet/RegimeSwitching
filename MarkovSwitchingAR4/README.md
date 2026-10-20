@@ -17,7 +17,7 @@ See also: MarkovSwitchingARGARCH, MarkovSwitchingGARCH, MarkovSwitchingNormal
 
 Author: Thijs Benschop
 
-Submitted: Thijs Benschop
+Submitted: 02.06.2018
 
 Datafile: dataCO2.txt, reestRecurMSAR4.txt, resMSAR4.txt, uMSAR4.txt
 
